@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:context=".ImcActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            style="@style/TextViewForm"
+            android:text="@string/Imc_desc" />
+
+        <EditText
+            android:id="@+id/imc_edit_peso"
+            style="@style/EditTextForm"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:hint="@string/peso" />
+
+        <EditText
+            android:id="@+id/imc_edit_altura"
+            android:textColor="@android:color/white"
+            style="@style/EditTextForm"
+            android:textColorHint="@android:color/white"
+            android:hint="@string/altura" />
+
+        <Button
+            android:id="@+id/button_imc_edit"
+            style="@style/ButtonForm"
+            android:text="@string/calc" />
+
+
+    </LinearLayout>
+</ScrollView>
