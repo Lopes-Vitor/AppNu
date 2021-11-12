@@ -3,42 +3,58 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@android:color/black"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#202124">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_gravity="center"
+        android:gravity="center"
         android:orientation="vertical"
         tools:context=".ImcActivity">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:textColor="@android:color/white"
-            android:layout_height="wrap_content"
             style="@style/TextViewForm"
-            android:text="@string/Imc_desc" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/imc_title"
+            android:textColor="#FFFCFC"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/TextViewForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+            android:text="@string/Imc_desc"
+            android:textColor="@color/GrayLight" />
 
         <EditText
             android:id="@+id/imc_edit_peso"
             style="@style/EditTextForm"
+            android:backgroundTint="#65b4ff"
+            android:hint="@string/peso"
             android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white"
-            android:hint="@string/peso" />
+            android:textColorHint="#65b4ff"
+            tools:targetApi="lollipop" />
 
         <EditText
             android:id="@+id/imc_edit_altura"
-            android:textColor="@android:color/white"
             style="@style/EditTextForm"
-            android:textColorHint="@android:color/white"
-            android:hint="@string/altura" />
+            android:backgroundTint="#65b4ff"
+            android:hint="@string/altura"
+            android:textColor="@android:color/white"
+            android:textColorHint="#65b4ff"
+            tools:targetApi="lollipop" />
 
         <Button
             android:id="@+id/button_imc_edit"
             style="@style/ButtonForm"
-            android:text="@string/calc" />
+            android:text="@string/calc"
+            android:textColor="@android:color/white" />
 
 
     </LinearLayout>

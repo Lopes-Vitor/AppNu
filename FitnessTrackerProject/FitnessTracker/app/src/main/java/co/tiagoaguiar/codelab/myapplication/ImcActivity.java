@@ -4,10 +4,15 @@ import androidx.annotation.StringRes;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -35,24 +40,68 @@ public class ImcActivity extends AppCompatActivity {
             String sAltura = editAltura.getText().toString();
             String sPeso = editPeso.getText().toString();
 
-            int altura = Integer.parseInt(sAltura);
-            int peso = Integer.parseInt(sPeso);
+            int altura = 0;
+            int peso = 0;
 
-            double result = calculateImc(altura, peso);
-            Log.d("Teste", "Resultado: " + result);
+            try {
+                altura = Integer.parseInt(sAltura);
+                peso = Integer.parseInt(sPeso);
 
-            int imcResponseId = imcResponse(result);
+                double result = calculateImc(altura, peso);
+                Log.d("Teste", "Resultado: " + result);
 
-            AlertDialog dialog = new AlertDialog.Builder(ImcActivity.this)
-                    .setTitle(getString(R.string.imc_response, result))
-                    .setMessage(imcResponseId)
-                    .setPositiveButton(android.R.string.ok, (dialog1, which) -> {
-                    })
-                    .create();
-            dialog.show();
+                int imcResponseId = imcResponse(result);
+
+                AlertDialog dialog = new AlertDialog.Builder(ImcActivity.this)
+                        .setTitle(getString(R.string.imc_response, result))
+                        .setMessage(imcResponseId)
+                        .setPositiveButton(android.R.string.ok, (dialog1, which) -> {
+                        })
+                        .create();
+                dialog.show();
+            } catch (NumberFormatException e) {
+                Toast.makeText(this, "Preencha os campos seu animal", Toast.LENGTH_SHORT).show();
+            }
+
+        });
+
+        editPeso.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                if (editPeso.length() == 3)
+                    hideKeyboardFrom(ImcActivity.this, editPeso);
+            }
         });
 
 
+        editAltura.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                if (editAltura.length() == 3)
+                    hideKeyboardFrom(ImcActivity.this, editAltura);
+
+            }
+        });
     }
 
     @StringRes
@@ -84,6 +133,11 @@ public class ImcActivity extends AppCompatActivity {
                 && !editAltura.toString().startsWith("0")
                 && !editPeso.toString().isEmpty()
                 && !editAltura.toString().isEmpty());
+    }
+
+    public static void hideKeyboardFrom(Context context, View view) {
+        InputMethodManager imm = (InputMethodManager) context.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
 }

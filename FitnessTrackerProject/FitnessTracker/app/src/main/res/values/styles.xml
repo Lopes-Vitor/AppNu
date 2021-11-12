@@ -1,15 +1,15 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/black</item>
     </style>
 
     <style name="TextViewForm">
-        <item name="android:layout_marginStart">30dp</item>
-        <item name="android:layout_marginEnd">30dp</item>
         <item name="android:layout_marginBottom">40dp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">18dp</item>
@@ -25,14 +25,13 @@
         <item name="android:maxLength">3</item>
         <item name="android:textStyle">bold</item>
     </style>
-    
+
     <style name="ButtonForm">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">40dp</item>
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:paddingStart">20dp</item>
-        <item name="android:paddingEnd">20dp</item>
+        <item name="android:padding">15dp</item>
         <item name="android:background">@drawable/button_accent</item>
 
     </style>
