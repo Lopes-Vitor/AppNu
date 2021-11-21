@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/lucas/desktop/AndroidStudioProjects/AppBank/app/src/main/res/drawable/background_card_view.xml" value="0.3880208333333333" />
+        <entry key="..\:/lucas/desktop/AndroidStudioProjects/AppBank/app/src/main/res/drawable/background_purple_rounded.xml" value="0.3880208333333333" />
+        <entry key="..\:/lucas/desktop/AndroidStudioProjects/AppBank/app/src/main/res/drawable/btn_background.xml" value="0.3880208333333333" />
+        <entry key="..\:/lucas/desktop/AndroidStudioProjects/AppBank/app/src/main/res/drawable/ic_outline_person_outline_24.xml" value="0.3880208333333333" />
+        <entry key="..\:/lucas/desktop/AndroidStudioProjects/AppBank/app/src/main/res/layout/activity_main.xml" value="0.3578125" />
+        <entry key="..\:/lucas/desktop/AndroidStudioProjects/AppBank/app/src/main/res/layout/content_header.xml" value="0.5" />
+        <entry key="..\:/lucas/desktop/AndroidStudioProjects/AppBank/app/src/main/res/layout/fragment_home.xml" value="0.371875" />
+        <entry key="..\:/lucas/desktop/AndroidStudioProjects/AppBank/app/src/main/res/layout/fragment_input.xml" value="0.371875" />
+        <entry key="..\:/lucas/desktop/AndroidStudioProjects/AppBank/app/src/main/res/layout/fragment_output.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
