@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="586a7517-5d18-40c8-b334-af0d1a439109" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AppBank/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/.idea/AppBank.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/androidTest/java/com/example/appbank/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/java/com/example/appbank/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/java/com/example/appbank/screen/home/HomeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/java/com/example/appbank/screen/input/InputFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/java/com/example/appbank/screen/output/OutputFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/drawable/background_card_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/drawable/background_purple_rounded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/drawable/btn_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/drawable/ic_baseline_help_outline_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/drawable/ic_outline_person_outline_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/drawable/ic_outline_remove_red_eye_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/layout/content_header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/layout/fragment_input.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/layout/fragment_output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/navigation/main_nav_graph.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/app/src/test/java/com/example/appbank/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppBank/AppBank/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="21EXgSczAnmZ3jnm1JWs8Xc2PyE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="586a7517-5d18-40c8-b334-af0d1a439109" name="Default Changelist" comment="" />
+      <created>1637507331793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637507331793</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
