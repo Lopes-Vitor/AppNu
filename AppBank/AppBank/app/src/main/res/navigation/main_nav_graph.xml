@@ -26,5 +26,5 @@
         android:id="@+id/outputFragment"
         android:name="com.example.appbank.screen.output.OutputFragment"
         android:label="fragment_output"
-        tools:layout="@layout/fragment_output" />
+        tools:layout="@layout/fragment_input" />
 </navigation>

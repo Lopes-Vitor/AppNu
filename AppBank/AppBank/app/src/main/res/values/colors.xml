@@ -11,4 +11,6 @@
     <color name="purple_white">#9b3bda</color>
     <color name="purple_black">#37265c</color>
     <color name="purple_white_card">#6f5497</color>
+    <color name="gray">#EFF1F5</color>
+    <color name="black_a">#020202</color>
 </resources>

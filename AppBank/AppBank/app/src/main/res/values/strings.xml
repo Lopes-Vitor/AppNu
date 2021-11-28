@@ -5,4 +5,12 @@
     <string name="hello_user">Olá, Usuário</string>
     <string name="content_card">Quer um \npedacinho do Nu?</string>
     <string name="card_button">Eu quero</string>
+    <string name="account">Conta</string>
+    <string name="money">R$ 10,50</string>
+    <string name="txt_donate">Doação</string>
+    <string name="txt_mycards">Meus cartões</string>
+    <string name="txt_advertising">IPO do Nubank: Investimento a \npartir de R$30 até 07/12</string>
+    <string name="txt_input">Qual é o valor da \ntransferência?</string>
+    <string name="txtvw_balance">Saldo disponível em conta</string>
+    <string name="txt_output">Qual valor do boleto\nde depósito?</string>
 </resources>
