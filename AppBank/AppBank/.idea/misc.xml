@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.240625" />
+        <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/drawable/background_arrow.xml" value="0.23692307692307693" />
         <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/drawable/background_arrow_input.xml" value="0.23692307692307693" />
         <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/drawable/background_card_view.xml" value="0.240625" />
         <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/drawable/background_purple_rounded.xml" value="0.240625" />
@@ -19,7 +20,7 @@
         <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.240625" />
         <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/drawable/ic_baseline_qr_code_24.xml" value="0.240625" />
         <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/drawable/ic_launcher_background.xml" value="0.240625" />
-        <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/layout/advertising_item.xml" value="0.33" />
         <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/layout/content_account.xml" value="0.33" />
         <entry key="..\:/Users/vitor/Documents/GitHub/AppsTeste/AppBank/AppBank/app/src/main/res/layout/content_card.xml" value="0.25" />
