@@ -48,7 +48,6 @@ public class ImcActivity extends AppCompatActivity {
                 peso = Integer.parseInt(sPeso);
 
                 double result = calculateImc(altura, peso);
-                Log.d("Teste", "Resultado: " + result);
 
                 int imcResponseId = imcResponse(result);
 
@@ -60,7 +59,7 @@ public class ImcActivity extends AppCompatActivity {
                         .create();
                 dialog.show();
             } catch (NumberFormatException e) {
-                Toast.makeText(this, "Preencha os campos seu animal", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Preencha todos os campos.", Toast.LENGTH_SHORT).show();
             }
 
         });
