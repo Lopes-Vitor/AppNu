@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Water app</string>
-    <string name="hint">Intervalo (min)</string>
-    <string name="notify">Notificar</string>
-    <string name="Lembrar">Lembrar</string>
-</resources>
